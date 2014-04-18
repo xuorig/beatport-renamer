@@ -1,3 +1,4 @@
+renamer_private.conf
 *.gem
 *.rbc
 /.config
