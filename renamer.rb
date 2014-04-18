@@ -34,5 +34,3 @@ Dir.glob(bp_folder + "*").sort.each do |f|
 end
 
 puts "Renaming Complete"
-
-# code here...
