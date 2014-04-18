@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.6)
+    beatport (0.2.1)
+      addressable
+      faraday (~> 0.8.8)
+      money (~> 5.1.1)
+      signet
+    faraday (0.8.9)
+      multipart-post (~> 1.2.0)
+    htmlentities (4.3.1)
+    i18n (0.6.9)
+    jwt (0.1.11)
+      multi_json (>= 1.5)
+    money (5.1.1)
+      i18n (~> 0.6.0)
+    multi_json (1.9.2)
+    multipart-post (1.2.0)
+    parseconfig (1.0.4)
+    signet (0.4.5)
+      addressable (>= 2.2.3)
+      faraday (~> 0.8.1)
+      jwt (>= 0.1.5)
+      multi_json (>= 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  beatport
+  htmlentities
+  parseconfig
